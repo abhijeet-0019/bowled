@@ -1,0 +1,9 @@
+export const GRAVITY = -9.81;
+export const BALL_RADIUS = 0.08;
+export const RESTITUTION = 0.8;
+export const STUMP_Z = -20;
+export const STUMP_HEIGHT = 2.4;
+export const STUMP_RADIUS = 0.08;
+export const STUMP_SPACING = 0.4;
+export const PITCH_LENGTH = 20.12;
+export const MIN_BOUNCE_Z = -14;

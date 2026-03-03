@@ -1,5 +1,5 @@
 {
-  "name": "Stumped",
-  "description": "bowl and stumps... you know what to do.",
+  "name": "Bowled",
+  "description": "A 3D spin bowling game. Master the spin, hit the stumps.",
   "requestFramePermissions": []
 }

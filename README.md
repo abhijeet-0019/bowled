@@ -1,20 +1,59 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Bowled - Spin Bowling Game
 
-# Run and deploy your AI Studio app
+A 3D browser-based spin bowling game built with React and Three.js. Master the art of spin bowling by controlling power and angle to hit the stumps.
 
-This contains everything you need to run your app locally.
+## How to Play
 
-View your app in AI Studio: https://ai.studio/apps/6bdd54cd-6534-4cff-8006-6a43b78aafeb
+- **Drag down** for bowling power
+- **Drag left/right** for angle
+- Watch the **spin indicator** to predict the ball's deviation after bouncing
+- Hit the stumps to score points (middle stump = 3 points, others = 1 point)
+- You have 3 lives - don't miss!
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js 20 or higher
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+The production-ready files will be in the `dist` folder.
+
+## Deploy to Netlify
+
+This project is configured for automatic deployment on Netlify:
+
+1. Push to GitHub
+2. Connect your repository to Netlify
+3. Netlify will automatically detect the build settings from `netlify.toml`
+
+## Tech Stack
+
+- React 19
+- Three.js / React Three Fiber
+- Zustand (state management)
+- Tailwind CSS
+- Vite
+
+## Acknowledgments
+
+This game was built using Google AI Studio.
+
+## License
+
+MIT
